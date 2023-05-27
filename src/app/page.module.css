@@ -1,0 +1,7 @@
+.pageContainer {
+  background-color: var(--white-color);
+  border-radius: 60px 0 0 60px;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
