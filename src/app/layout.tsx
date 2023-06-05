@@ -1,5 +1,4 @@
 import "../../styles/settings/globals.css";
-import "../../styles/settings/variables.css";
 
 export const metadata = {
   title: "MyWiki",

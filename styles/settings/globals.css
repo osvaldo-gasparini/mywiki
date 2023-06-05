@@ -1,17 +1,24 @@
+@import url(../../components/UI/Inputs/Input.css);
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --green-color: #b9eddd;
   --blue-color: #647aff;
   --lightblue-color: rgba(#647aff, 40);
   --gray-color: #eeeaf4;
+  --hard-gray-color: #465564;
   --white-color: #ffffff;
+  --black-color: #000000;
+
+  font-size: 12px;
 }
 
 * {
   margin: 0;
   font-family: Satoshi;
+  box-sizing: border-box;
 
   &::before,
   &::after {
@@ -29,6 +36,8 @@
 
 body {
   background-color: var(--blue-color);
+  max-width: 100vw;
+  /* overflow-x: hidden; */
   /* min-height: 100vh; */
 }
 
@@ -40,6 +49,7 @@ a {
 }
 
 button {
+  cursor: pointer;
   background: none;
   border: 0;
   color: inherit;

@@ -1,0 +1,15 @@
+.text {
+}
+
+.search {
+  width: 50%;
+  padding: 0 25px;
+
+  &:focus {
+    width: 100%;
+  }
+
+  &::placeholder {
+    font-weight: 700;
+  }
+}

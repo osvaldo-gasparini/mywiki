@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .Premium {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+  }
+  .Basic {
+    background-color: var(--green-color);
+    color: var(--black-color);
+  }
+
+  .anchor {
+    padding: 0px 20px;
+    border-radius: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    height: 2.6rem;
+  }
+}

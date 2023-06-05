@@ -24,6 +24,7 @@
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "postcss-nested": "^6.0.1",
+    "postcss-nested-ancestors": "^3.0.0",
     "precss": "^4.0.0"
   }
 }

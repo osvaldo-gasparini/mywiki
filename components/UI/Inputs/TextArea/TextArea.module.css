@@ -1,0 +1,5 @@
+.textArea {
+  overflow: auto;
+  resize: none;
+  padding: 20px;
+}
