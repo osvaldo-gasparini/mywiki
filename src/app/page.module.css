@@ -12,7 +12,7 @@
     flex-flow: row nowrap;
     justify-content: space-around;
     padding: 0 20px;
-    gap: 30px;
+    gap: 40px;
 
     .article {
       display: flex;
@@ -21,34 +21,91 @@
     }
 
     .quickNotes {
-      width: 50%;
+      width: 100%;
       height: 15rem;
     }
 
     .create {
-      width: 25%;
+      width: 40%;
+      display: flex;
+      flex-flow: column nowrap;
 
       .buttonContainer {
-        background: var(--lightblue-color);
         width: 100%;
-        height: 80%;
-        border-radius: 45px;
-        font-size: 1.5rem;
-        font-weight: 700;
-        font-size: 2rem;
-        text-align: left;
-        border-radius: 45px;
-        padding: 10px 30px;
+        height: 70%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        align-items: center;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        gap: 15px;
+
+        .button {
+          font-size: 1.5rem;
+          font-weight: 700;
+          font-size: 2rem;
+          height: 100%;
+          border-radius: 45px;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          transition: 0.5s;
+          width: 100%;
+
+          &:hover {
+            font-size: 2.2rem;
+          }
+        }
+
+        .wikiButton {
+          background: var(--green-color);
+        }
 
         .noteButton {
-          height: 100%;
-          background-color: var(--white-color);
+          background-color: var(--yellow-color);
         }
+      }
+    }
+
+    .settings {
+      width: 15%;
+    }
+  }
+
+  .secondSection {
+    background-color: var(--lightblue-color);
+    border-radius: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 40px 10px 0;
+    padding: 20px 30px 30px;
+    gap: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    .container {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      width: 50%;
+      gap: 10px;
+
+      .title {
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .itemContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 45px;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      .wikis {
+        background-color: var(--gray-color);
+      }
+
+      .notes {
+        background-color: var(--gray-color);
       }
     }
   }
